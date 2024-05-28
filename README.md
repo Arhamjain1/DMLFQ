@@ -1,6 +1,6 @@
 # DMLFQ
 
-### Multi-Level Feedback Queue (MLFQ) Scheduler
+### DMLFQ Scheduler
 
 This program implements a Multi-Level Feedback Queue (MLFQ) scheduler in C using pthreads for concurrent task processing. Tasks are categorized into four priority levels: real-time, system process, interactive process, and batch process. Each priority level is associated with a queue, and tasks are executed based on their priority using different scheduling algorithms.
 
